@@ -8,8 +8,23 @@
 import SwiftUI
 
 struct OutgoingShipmentsView: View {
+    @State var OutgoingShipments: [Picking] = []
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack {
+            ZStack {
+                List {
+                    ForEach($OutgoingShipments) { $shipment in
+                        Text(shipment.name)
+                    }
+                }
+                if OutgoingShipments.isEmpty {
+                    ContentUnavailableView {
+                        Label("No Outgoing Shipments", systemImage: "tray.and.arrow.up.fill")
+                    }
+                }
+                
+            }.navigationTitle("Incoming Shipments")
+        }
     }
 }
 

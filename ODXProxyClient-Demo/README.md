@@ -7,6 +7,7 @@ A SwiftUI demo app showcasing how to connect Apple platforms to an Odoo backend 
 - Viewing and confirming incoming shipments (stock.picking) and reading related stock moves
 - Selecting allowed companies and persisting settings locally
 
+
 ## Features
 
 - SwiftUI UI targeting multiple Apple platforms
@@ -113,27 +114,8 @@ Settings are saved in UserDefaults with the following keys:
 - Confirm a Picking:
   - DetailPickingView.confirmShipment() calling button_validate via OdxApi.callMethod
 
-## Notes/Tips
+## License
 
-- Ensure your ODX proxy instance is reachable and properly configured for your Odoo backend.
-- Use correct company IDs and timezone in OdxClientRequestContext.
-- Validate credentials and URLs in Settings before saving.
-- The demo filters pickings to state = "assigned" and picking_type_id.code in ["incoming", "internal"].
+MIT License © 2025 TERRAKERNEL. PTE. LTD — Author: julian richie wajong
 
-## Testing
-
-This repository includes swift-testing as a dependency for the package target. You can add tests in the ODXProxyClientSwiftTests target using the new Testing framework.
-
-Example:
-
-```swift
-import Testing
-
-@Suite("Basic math")
-struct MathTests {
-    @Test
-    func add() async throws {
-        let a = 2, b = 3
-        #expect(a + b == 5)
-    }
-}
+See the LICENSE file for full text.

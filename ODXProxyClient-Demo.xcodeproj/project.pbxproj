@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		7D7D2A3E2ECE0B6D00CE4E68 /* ODXProxyClientSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 7D7D2A3D2ECE0B6D00CE4E68 /* ODXProxyClientSwift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		7D7D29F42ECDFE4200CE4E68 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -52,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D7D2A3E2ECE0B6D00CE4E68 /* ODXProxyClientSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +117,7 @@
 			);
 			name = "ODXProxyClient-Demo";
 			packageProductDependencies = (
+				7D7D2A3D2ECE0B6D00CE4E68 /* ODXProxyClientSwift */,
 			);
 			productName = "ODXProxyClient-Demo";
 			productReference = 7D7D29E62ECDFE3F00CE4E68 /* ODXProxyClient-Demo.app */;
@@ -195,6 +201,9 @@
 			);
 			mainGroup = 7D7D29DD2ECDFE3F00CE4E68;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				7D7D2A3C2ECE0B6D00CE4E68 /* XCLocalSwiftPackageReference "../ODXProxyClient-Swift" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 7D7D29E72ECDFE3F00CE4E68 /* Products */;
 			projectDirPath = "";
@@ -578,6 +587,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		7D7D2A3C2ECE0B6D00CE4E68 /* XCLocalSwiftPackageReference "../ODXProxyClient-Swift" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = "../ODXProxyClient-Swift";
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7D7D2A3D2ECE0B6D00CE4E68 /* ODXProxyClientSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ODXProxyClientSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7D7D29DE2ECDFE3F00CE4E68 /* Project object */;
 }

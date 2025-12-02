@@ -1,0 +1,78 @@
+# =====================================
+# macOS
+# =====================================
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# =====================================
+# Xcode
+# =====================================
+build/
+DerivedData/
+
+# Xcode workspace & schemes
+xcuserdata/
+*.xcscmblueprint
+*.xccheckout
+
+# Xcode logs
+*.xccrashpoint
+*.xcactivitylog
+
+# Xcode temp files
+*.moved-aside
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xcuserstate
+
+# =====================================
+# Swift Package Manager
+# =====================================
+.build/
+Packages/
+Package.resolved
+
+# =====================================
+# Swift Playgrounds
+# =====================================
+timeline.xctimeline
+playground.xcworkspace
+
+# =====================================
+# CocoaPods
+# =====================================
+Pods/
+Podfile.lock
+
+# =====================================
+# Carthage
+# =====================================
+Carthage/Build/
+
+# =====================================
+# Fastlane
+# =====================================
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output/
+
+# =====================================
+# Accio
+# =====================================
+Dependencies/
+.accio/
+
+# =====================================
+# Other
+# =====================================
+*.swp
+*.swo
+*.tmp
+

@@ -6,12 +6,18 @@
 //
 
 import SwiftUI
+import ODXProxyClientSwift
+
 
 @main
 struct ODXProxyClient_DemoApp: App {
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
         }
     }
+    
+    
+    
 }
