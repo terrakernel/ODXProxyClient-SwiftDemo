@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D7357F32EDEFB72005DE312 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 7D7357F22EDEFB71005DE312 /* README.md */; };
+		7D7357F52EDEFD55005DE312 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 7D7357F42EDEFD55005DE312 /* LICENSE */; };
 		7D7D2A3E2ECE0B6D00CE4E68 /* ODXProxyClientSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 7D7D2A3D2ECE0B6D00CE4E68 /* ODXProxyClientSwift */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7D7357F22EDEFB71005DE312 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		7D7357F42EDEFD55005DE312 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		7D7D29E62ECDFE3F00CE4E68 /* ODXProxyClient-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ODXProxyClient-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D7D29F32ECDFE4200CE4E68 /* ODXProxyClient-DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ODXProxyClient-DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D7D29FD2ECDFE4200CE4E68 /* ODXProxyClient-DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ODXProxyClient-DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -80,6 +84,8 @@
 		7D7D29DD2ECDFE3F00CE4E68 = {
 			isa = PBXGroup;
 			children = (
+				7D7357F42EDEFD55005DE312 /* LICENSE */,
+				7D7357F22EDEFB71005DE312 /* README.md */,
 				7D7D29E82ECDFE3F00CE4E68 /* ODXProxyClient-Demo */,
 				7D7D29F62ECDFE4200CE4E68 /* ODXProxyClient-DemoTests */,
 				7D7D2A002ECDFE4200CE4E68 /* ODXProxyClient-DemoUITests */,
@@ -221,6 +227,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D7357F52EDEFD55005DE312 /* LICENSE in Resources */,
+				7D7357F32EDEFB72005DE312 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
